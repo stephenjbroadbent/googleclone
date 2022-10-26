@@ -1,0 +1,150 @@
+* {
+    overflow-x: hidden;
+    font-family: arial,sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+.buttons {
+    padding: 5px;
+    margin: 5px;
+    font-size: 13px;
+}
+
+.about {
+    height: 42px;
+    position: relative;
+    left: 6px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.store {
+    position: relative;
+    left: 22px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.gmail {
+    color: black;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    right: -78.5%;
+}
+
+.images {
+    background-color: transparent;
+    border: none;
+    position: relative;
+    cursor: pointer;
+    position: relative;
+    right: -79.5%;
+}
+
+.google {
+    height: 92px;
+    width: 21.5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 208px;
+    min-width: 120px;
+    max-width: 420px;
+    min-height: 92px;
+    max-height: 240px;
+}
+
+#searchengine {
+    background-image: url('https://cdn1.iconfinder.com/data/icons/hawcons/32/698627-icon-111-search-512.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 20px;
+    border-radius: 32px;
+    margin: 25px auto;
+    width: 41%;
+    padding: 8px 20px 12px 40px;
+    border: 1px solid #ddd;
+    display: block;
+}
+
+.searchbar {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    font-size: 16px;
+    width: 450px;
+}
+
+.camera {
+    height: 20px;
+    position: relative;
+    left: 20px;
+}
+
+#miscbuttons a {
+    text-decoration: none;
+    background-color: rgba(100,100,100,.05);
+    border-radius: 4px;
+    font-size: 14px;
+    color: black;
+    padding: 3px 16px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 30px;
+}
+
+.search {
+    position: relative;
+    top: 35%;
+    left: 39%;
+}
+
+.trends {
+    position: relative;
+    top: 35%;
+    left: 40%;
+}
+
+.UnitedKingdom {
+    background-color: rgb(240, 240, 240);
+    color: grey;
+    font-size: 15px;
+    font-weight: 100;
+    position: absolute;
+    bottom:48px;
+    width: 100%;
+    text-align: left;
+    padding: 15px 0 15px 0;
+}
+
+.uk {
+    background-color: rgb(240, 240, 240);
+    color: grey;
+    font-size: 15px;
+    font-weight: 100;
+    position: absolute;
+    bottom:48px;
+    width: 100%;
+    text-align: left;
+    padding: 15px 0 15px 25px;
+}
+
+.footer {
+    background-color: rgb(240, 240, 240);
+    border-top: solid 1px lightgray;
+    font-size: 12px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: inline-block;
+    padding: 10px 0 10px 0;
+    margin: 0;
+}
